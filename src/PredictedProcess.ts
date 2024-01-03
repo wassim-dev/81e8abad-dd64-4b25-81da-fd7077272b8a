@@ -10,6 +10,12 @@ export class PredictedProcess {
 
   /**
    * Spawns and manages a child process to execute a given command, with handling for an optional AbortSignal.
+   *
+   * WRITE UP:
+   * (Please provide a detailed explanation of your approach, specifically the reasoning behind your design decisions. This can be done _after_ the 1h30m time limit.)
+   *
+   * ...
+   *
    */
   public async run(signal?: AbortSignal): Promise<void> {
     // TODO: Implement this.
@@ -17,6 +23,12 @@ export class PredictedProcess {
 
   /**
    * Returns a memoized version of `PredictedProcess`.
+   *
+   * WRITE UP:
+   * (Please provide a detailed explanation of your approach, specifically the reasoning behind your design decisions. This can be done _after_ the 1h30m time limit.)
+   *
+   * ...
+   *
    */
   public memoize(): PredictedProcess {
     // TODO: Implement this.

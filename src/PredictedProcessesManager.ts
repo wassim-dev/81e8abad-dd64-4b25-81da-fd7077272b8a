@@ -27,6 +27,12 @@ export class PredictedProcessesManager {
 
   /**
    * Executes multiple predicted processes.
+   *
+   * WRITE UP:
+   * (Please provide a detailed explanation of your approach, specifically the reasoning behind your design decisions. This can be done _after_ the 1h30m time limit.)
+   *
+   * ...
+   *
    */
   public async runAll(signal?: AbortSignal): Promise<void> {
     // TODO: Implement this.
